@@ -24,4 +24,5 @@ SELECT folder_id, user_id, folder_name, created_at FROM `folder` WHERE folder_id
 SELECT folder_id, user_id, folder_name, created_at FROM `folder` WHERE user_id = 1 ORDER BY created_at DESC;
 SELECT file_id, file_name, file_path, file_type, uploaded_at FROM `file` WHERE file_id = 1;
 SELECT file_id, file_name, file_path, file_type, uploaded_at FROM `file` ORDER BY uploaded_at DESC;
-SELECT user_id, email, username, password, created_at FROM `user`;SELECT folder_id, user_id, folder_name, created_at FROM `folder`;
+SELECT user_id, email, username, password, created_at FROM `user`;
+SELECT folder_id, user_id, folder_name, created_at FROM `folder`;
